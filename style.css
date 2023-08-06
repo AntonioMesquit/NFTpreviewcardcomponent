@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/*font-family: 'Outfit', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family:'Outfit', sans-serif; 
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+    background-color: hsl(217, 54%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.319);
+}
+.vls{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    font-size: 10px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+
+.z{
+    height: 300px;
+    width: 270px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.pt1{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+.pt2{
+    display: flex;
+    align-items: center;
+}
+
+.c{
+    height: 23px;
+    width: 23px;
+   border: 1px solid white;
+   border-radius: 50%;
+    
+}
+.b{
+    height: 20px;
+}
+.tx{
+    padding-left: 5px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%)
+}
+
+.tx2{
+    padding-left: 5px;
+}
+
+
+.title{
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+.title:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 1s;
+    cursor: pointer;
+
+}
+.titl{
+    font-size: 14px;
+    
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 10px;
+}
+footer{
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.165);
+    width: 230px;
+    padding-top: 20px;
+}
+.content{
+display: flex;
+font-size: 12px;
+margin-bottom: 5px;
+height: 30px;
+
+}
+.q{
+    padding-top: 4px;
+    margin-left: 15px;
+    font-size: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.l{
+    color: white;
+}
+.l:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+    transition: 1s;
+}
+.image-hover{
+display: flex;
+
+}
+
+  
+
