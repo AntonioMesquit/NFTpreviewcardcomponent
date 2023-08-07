@@ -20,6 +20,7 @@ body{
     width: 300px;
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.261);
 }
 .image{
     position: relative;
